@@ -5,7 +5,7 @@
                 <img class="w-100" src="{{ asset('/assets/img/new/carousel-1.jpg') }}" alt="Image">
                 <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                     <div class="p-3" style="max-width: 900px;">
-                        <h1 class="display-2 text-uppercase text-white mb-md-4">Explorez le monde en toute confiance avec<span class="text-primary">CARENT</span></h1>
+                        <h1 class="display-2 text-uppercase text-white mb-md-4">Explorez le monde en toute confiance avec <span class="text-primary">CARENT</span></h1>
                         <a href="" class="btn btn-primary py-md-3 px-md-5 mt-2">Réserver</a>
                     </div>
                 </div>

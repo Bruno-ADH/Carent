@@ -18,7 +18,7 @@
     --bs-white: #fff;
     --bs-gray: #6c757d;
     --bs-gray-dark: #343a40;
-    --bs-primary: #FD5D14;
+    --bs-primary: #FD5D14 !important;
     --bs-secondary: #FDBE33;
     --bs-success: #198754;
     --bs-info: #0dcaf0;
