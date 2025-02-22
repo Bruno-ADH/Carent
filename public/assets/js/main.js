@@ -65,6 +65,10 @@
         loop: true,
     });
 
+    $("#search_car_form").on("submit", (e) => {
+        e.preventDefault()
+    })
+
     $('#searchInput').on('input', function() {
         var searchTerm = $(this).val();
 
@@ -77,13 +81,14 @@
                 success: function(data) {
                     $('#searchResults').html(data);
                     $('#searchResults').show();
+                    $('#searchResults').removeClass('d-none');
                 },
             });
         } else {
             $('#carlist').removeClass('d-none');
-            $('#searchResults').hide();
+            console.log('hide() cachéé:>> ');
+            $('#searchResults').addClass('d-none');
         }
     });
 
 })(jQuery);
-

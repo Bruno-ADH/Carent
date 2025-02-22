@@ -54,4 +54,5 @@
 
 @section('scripts')
    <script src="{{ asset('/assets/js/rent.js') }}"></script> 
+   <script src="{{ asset('/assets/js/rentForm.js') }}"></script> 
 @endsection

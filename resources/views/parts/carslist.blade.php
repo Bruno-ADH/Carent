@@ -7,7 +7,7 @@
         @endif
 
         <div class="mt-5">
-            <form action="{{ route('search-car') }}" method="get">
+            <form id="search_car_form" action="{{ route('search-car') }}" method="get">
                 @csrf
                 <div class="input-group">
                     <input name="search" id="searchInput" type="text" class="form-control p-3" placeholder="Mot-clé">

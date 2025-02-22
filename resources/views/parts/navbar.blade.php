@@ -1,4 +1,4 @@
-<div class="container sticky-top bg-dark bg-light-radial shadow-sm pe-lg-0 h-auto">
+<div class="container-fluid sticky-top bg-dark bg-light-radial shadow-sm pe-lg-0 h-auto">
     <nav class="navbar navbar-expand-lg bg-dark bg-light-radial shadow-sm navbar-dark py-3 py-lg-0 sticky-top">
         <a href="{{ route('home') }}" class="navbar-brand">
             <h1 class="m-0 display-4 text-uppercase text-white"><i class="fa-solid fa-car text-primary me-2 rotation"></i>CARENT

@@ -315,3 +315,6 @@
     }
 }
 
+#result:empty {
+    border: none !important;
+}
